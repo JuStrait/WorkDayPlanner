@@ -1,10 +1,13 @@
+*,
+*::before,
+*::after,
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1;
 }
 
-textarea{
+textarea {
   background: transparent;
   border: none;
   resize: none;
@@ -15,25 +18,34 @@ textarea{
 
 .jumbotron {
   text-align: center;
+  align-content: center;
   background-color: transparent;
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
 }
 
-.description{
+.description {
   white-space: pre-wrap;
 }
 
-.time-block{
+.time-block {
   text-align: center;
   border-radius: 15px;
 }
 
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
+.input-group {
+  height: 6rem;
+  border: 3px solid rgb(14, 8, 8);
+  border-radius: 10px;
+  margin: 1rem;
+  text-align: center;
+  justify-content: center;
+}
+.input-group-text {
+  padding: 2rem;
+  border-right: 1px solid black;
+  background-color: ;
 }
 
 .hour {
@@ -58,14 +70,20 @@ textarea{
 }
 
 .saveBtn {
+  display: flex;
+  padding: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: #06aed5;
   color: white;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font: black;
 }
